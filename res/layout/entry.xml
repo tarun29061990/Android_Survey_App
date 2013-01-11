@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="800dip"
+    android:layout_height="480dip"
+    >
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:id="@+id/textView5" android:text="Group No." android:layout_marginLeft="30dip" android:layout_marginTop="340dip" android:textSize="23px"></TextView>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:id="@+id/textView4" android:text="Ward No." android:layout_marginLeft="30dip" android:layout_marginTop="260dip" android:textSize="23px"></TextView>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:id="@+id/textView3" android:text="Survey No." android:layout_marginLeft="30dip" android:layout_marginTop="180dip" android:textSize="23px"></TextView>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:id="@+id/textView2" android:text="Date of survey" android:layout_marginLeft="30dip" android:layout_marginTop="100dip" android:textSize="23px"></TextView>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:id="@+id/textView1" android:text="Name of surveyer" android:layout_marginLeft="30dip" android:layout_marginTop="20dip" android:textSize="23px"></TextView>
+    <EditText android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:id="@+id/et1" android:text="" android:width="350px" android:layout_height="70px" android:autoText="false" android:layout_marginLeft="250dip" android:layout_marginTop="10dip" android:textSize="18px"></EditText>
+    <EditText android:layout_height="70px" android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:id="@+id/et2" android:text="" android:width="350px" android:autoText="false" android:layout_marginLeft="250dip" android:layout_marginTop="90dip" android:textSize="18px"></EditText>
+    <EditText android:layout_height="70px" android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:id="@+id/et3" android:text="" android:width="350px" android:autoText="false" android:layout_marginLeft="250dip" android:layout_marginTop="170dip" android:textSize="18px"></EditText>
+    <EditText android:layout_height="70px" android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:id="@+id/et4" android:text="" android:width="350px" android:autoText="false" android:layout_marginLeft="250dip" android:layout_marginTop="250dip" android:textSize="18px"></EditText>
+    <EditText android:layout_height="70px" android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:id="@+id/et5" android:text="" android:width="350px" android:autoText="false" android:layout_marginLeft="250dip" android:layout_marginTop="330dip" android:textSize="18px"></EditText>
+    
+    <Button android:text="Start" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:id="@+id/button1" android:width="170px" android:height="65px" android:layout_marginLeft="660dip" android:layout_marginTop="330dip" android:textSize="23px"></Button>
+
+</RelativeLayout>

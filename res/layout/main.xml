@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="800dip"
+    android:layout_height="480dip" android:gravity="top">
+    
+    <ImageButton android:src="@drawable/up" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/imageButton1" android:layout_alignParentLeft="true" android:layout_marginLeft="710dip" android:layout_marginTop="3dip"></ImageButton>
+    <ImageButton android:src="@drawable/down" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/imageButton2" android:layout_alignParentLeft="true" android:clickable="true" android:onClick="true" android:layout_marginLeft="710dip" android:layout_marginTop="337dip"></ImageButton>
+    
+
+    <TextView android:layout_alignParentLeft="true" android:id="@+id/textView1" android:text="1. Name of establishment:" android:clickable="false" android:textSize="20px" android:layout_marginLeft="10dip" android:layout_marginTop="6dip" android:layout_width="700px" android:layout_height="80px"></TextView>
+    
+    
+    
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:id="@+id/et1" android:autoText="false" android:clickable="true" android:cursorVisible="true" android:visibility="visible" android:layout_marginLeft="20dip" android:layout_marginTop="85dip" android:width="600px" android:height="200px"></EditText>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:id="@+id/button1" android:clickable="true" android:text="Submit" android:textSize="23px" android:width="120px" android:height="70px" android:visibility="visible" android:layout_marginLeft="240dip" android:layout_marginTop="350dip"></Button>
+    
+    
+
+<RadioGroup android:id="@+id/rg4" android:layout_alignParentLeft="true" android:visibility="gone" android:layout_height="300px" android:layout_marginTop="45px" android:layout_width="600px" android:layout_marginLeft="20px">
+        <RadioButton android:layout_height="wrap_content" android:id="@+id/rad40" android:layout_width="wrap_content" android:text="option1" android:textSize="18px"  android:visibility="gone" android:layout_marginTop="20dip"></RadioButton>
+        <RadioButton android:layout_height="wrap_content" android:id="@+id/rad41" android:layout_width="wrap_content" android:text="option2" android:textSize="18px"  android:visibility="gone" android:layout_marginTop="17dip"></RadioButton>
+        <RadioButton android:layout_height="wrap_content" android:id="@+id/rad42" android:layout_width="wrap_content" android:text="option3" android:textSize="18px"  android:visibility="gone" android:layout_marginTop="17dip"></RadioButton>
+        <RadioButton android:layout_height="wrap_content" android:id="@+id/rad43" android:layout_width="wrap_content" android:text="option4" android:textSize="18px"  android:visibility="gone" android:layout_marginTop="20dip"></RadioButton>
+            </RadioGroup>
+            
+            <RadioGroup android:id="@+id/rg2" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:visibility="gone" android:layout_marginLeft="20px">
+                
+        <RadioButton android:layout_height="wrap_content" android:id="@+id/rad20" android:layout_width="wrap_content"  android:text="Yes" android:visibility="gone" android:textSize="18px" android:layout_marginTop="110dip"></RadioButton>
+        <RadioButton android:layout_height="wrap_content" android:id="@+id/rad21" android:layout_width="wrap_content"  android:text="No" android:visibility="gone" android:textSize="18px" android:layout_marginTop="30dip"></RadioButton>
+            </RadioGroup>
+            
+            
+            <RadioGroup android:layout_alignParentLeft="true" android:id="@+id/rg8" android:layout_height="300px" android:layout_width="600px" android:layout_marginTop="70px" android:visibility="gone" android:layout_marginLeft="20px">
+                <RadioButton android:layout_height="wrap_content" android:id="@+id/rad80" android:layout_width="wrap_content" android:text="option1" android:visibility="gone" android:textSize="18px" android:layout_marginTop="5px"></RadioButton>
+                <RadioButton android:layout_height="wrap_content" android:id="@+id/rad81" android:layout_width="wrap_content" android:text="option2" android:visibility="gone" android:textSize="18px" android:layout_marginTop="16px"></RadioButton>
+                <RadioButton android:layout_height="wrap_content" android:id="@+id/rad82" android:layout_width="wrap_content" android:text="option3" android:visibility="gone" android:textSize="18px" android:layout_marginTop="20px"></RadioButton>
+                <RadioButton android:layout_height="wrap_content" android:id="@+id/rad83" android:layout_width="wrap_content" android:text="option4" android:visibility="gone" android:textSize="18px" android:layout_marginTop="20px"></RadioButton>
+                <RadioButton android:layout_height="wrap_content" android:id="@+id/rad87" android:layout_width="wrap_content" android:text="option8" android:visibility="gone" android:textSize="18px" android:layout_marginLeft="350px" android:layout_marginTop="-49px"></RadioButton>
+                <RadioButton android:layout_height="wrap_content" android:id="@+id/rad86" android:layout_width="wrap_content" android:text="option7" android:visibility="gone" android:textSize="18px" android:layout_marginLeft="350px" android:layout_marginTop="-118px"></RadioButton>
+                <RadioButton android:layout_height="wrap_content" android:id="@+id/rad85" android:layout_width="wrap_content" android:text="option6" android:visibility="gone" android:textSize="18px" android:layout_marginLeft="350px" android:layout_marginTop="-118px"></RadioButton>
+                <RadioButton android:layout_height="wrap_content" android:id="@+id/rad84" android:layout_width="wrap_content" android:text="option5" android:visibility="gone" android:textSize="18px" android:layout_marginLeft="350px" android:layout_marginTop="-113px"></RadioButton>
+            </RadioGroup>
+            
+            <RadioGroup android:layout_alignParentLeft="true" android:id="@+id/rg5" android:layout_height="300px" android:layout_width="600px" android:layout_marginTop="70px" android:visibility="gone" android:layout_marginLeft="20px">
+                <RadioButton android:layout_height="wrap_content" android:id="@+id/rad50" android:layout_width="wrap_content" android:text="option1" android:visibility="gone" android:textSize="18px"></RadioButton>
+                <RadioButton android:layout_height="wrap_content" android:id="@+id/rad51" android:layout_width="wrap_content" android:text="option2" android:visibility="gone" android:textSize="18px" android:layout_marginTop="15px"></RadioButton>
+                <RadioButton android:layout_height="wrap_content" android:id="@+id/rad52" android:layout_width="wrap_content" android:text="option3" android:visibility="gone" android:textSize="18px" android:layout_marginTop="15px"></RadioButton>
+                <RadioButton android:layout_height="wrap_content" android:id="@+id/rad53" android:layout_width="wrap_content" android:text="option4" android:visibility="gone" android:textSize="18px" android:layout_marginTop="15px"></RadioButton>
+                <RadioButton android:layout_height="wrap_content" android:id="@+id/rad54" android:layout_width="wrap_content" android:text="option5" android:visibility="gone" android:textSize="18px" android:layout_marginLeft="350px" android:layout_marginTop="-238px"></RadioButton>
+            </RadioGroup>
+            
+             <RadioGroup android:layout_alignParentLeft="true" android:id="@+id/rg3" android:layout_height="300px" android:layout_width="600px" android:layout_marginTop="70px" android:visibility="gone" android:layout_marginLeft="20px">
+                <RadioButton android:layout_height="wrap_content" android:id="@+id/rad30" android:layout_width="wrap_content" android:text="option1" android:textSize="18px" android:visibility="gone" android:layout_marginTop="20dip"></RadioButton>
+                <RadioButton android:layout_height="wrap_content" android:id="@+id/rad31" android:layout_width="wrap_content" android:text="option2" android:visibility="gone" android:textSize="18px" android:layout_marginTop="30dip"></RadioButton>
+                <RadioButton android:layout_height="wrap_content" android:id="@+id/rad32" android:layout_width="wrap_content" android:text="option3" android:visibility="gone" android:textSize="18px" android:layout_marginTop="30dip"></RadioButton>
+            </RadioGroup>
+            
+            
+            
+
+
+</RelativeLayout>
